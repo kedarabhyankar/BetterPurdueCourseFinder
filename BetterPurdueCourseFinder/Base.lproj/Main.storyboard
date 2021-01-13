@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item 2-->
+        <!--Settings-->
         <scene sceneID="kHz-kI-f9T">
             <objects>
                 <viewController id="ilD-6a-Go6" sceneMemberID="viewController">
@@ -18,13 +18,13 @@
                         <viewLayoutGuide key="safeArea" id="29V-Y2-YcW"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="080-yQ-zWe"/>
+                    <tabBarItem key="tabBarItem" title="Settings" image="gear" catalog="system" id="080-yQ-zWe"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6sK-91-i0F" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1786" y="523"/>
         </scene>
-        <!--Item 1-->
+        <!--Course Guide-->
         <scene sceneID="ktx-x4-cFD">
             <objects>
                 <viewController id="dMU-Km-d5c" sceneMemberID="viewController">
@@ -34,7 +34,7 @@
                         <viewLayoutGuide key="safeArea" id="dFm-LL-hx1"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="dUJ-Ea-r1U"/>
+                    <tabBarItem key="tabBarItem" title="Course Guide" image="books.vertical" catalog="system" id="dUJ-Ea-r1U"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="538-V1-RDh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -60,6 +60,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="books.vertical" catalog="system" width="128" height="103"/>
+        <image name="gear" catalog="system" width="128" height="119"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
