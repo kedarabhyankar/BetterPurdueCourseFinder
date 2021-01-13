@@ -1,0 +1,988 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0855050648CECA8014178D6362FB5B6C /* Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BE2A715ABCDDF4362DC17025F202FC4 /* Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0966BE7528B380A0AB187BB38C30ACD1 /* DropDownMenuKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 092E32C63B84B0D8D8B9A78169C975A6 /* DropDownMenuKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DAED01DCE040C03DB05B7D34AE96836 /* DropDownMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4D47CB88E8B41D8B1112BD4987273F /* DropDownMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		137DA24CBBE67A841C08FA5D23A9DF0B /* DropDownMenuKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F30098CB16F0B6FBB728916BA0548B /* DropDownMenuKit-dummy.m */; };
+		2DEC98C9D7F502278E675D462BE9F26B /* DropDownMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0960AD582A7E098E882E89656DE0335E /* DropDownMenu.swift */; };
+		3251A3DFE43D750782D97B6557387974 /* Pods-BetterPurdueCourseFinderTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A61270233069F376B3C961B87130183 /* Pods-BetterPurdueCourseFinderTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		329AA4FD7192C90C4329C464FB10AB09 /* Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05788A1C2981CCA0077F849240F5CFB2 /* Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests-dummy.m */; };
+		6FF20A266B1982F46CFE138206314EEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		77DD65C819724C6F2BB258EE04A1FBCB /* DropDownMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2550878D8B29629F012F6B636D93A87B /* DropDownMenuCell.swift */; };
+		793EBB06BDA1F66965302AD30CD61083 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		819FB4DF93FA2C54C306A69E1FDB9823 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8D0B6FAF2195938B643BAD9C282707BD /* Pods-BetterPurdueCourseFinder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D78D8FB11C3FDDAAB939AB8710F79A29 /* Pods-BetterPurdueCourseFinder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4861B4F4F9287BD98E8E2B951A1DFB4 /* DropDownMenuKit.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F11C5804F5789BD7D3BD4FC9FDFFC01A /* DropDownMenuKit.xcassets */; };
+		A84436C0B04C03299EE2487396828DEF /* DropDownTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F49211B509329667B725717802C263 /* DropDownTitleView.swift */; };
+		AB192F70B94E862B513892C2672B870B /* Pods-BetterPurdueCourseFinder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C4A7C947A5D145D9EC94509EA6334B /* Pods-BetterPurdueCourseFinder-dummy.m */; };
+		D79F30738747F148428444BC2DFE56EF /* Pods-BetterPurdueCourseFinderTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC42D543AB0F4158B0AC2F129CCDE265 /* Pods-BetterPurdueCourseFinderTests-dummy.m */; };
+		E457A36AE233952712BE6C2946D31BAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4536B92D8F1CB97AEE1FD9B38D8CB10A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AF96A70B6E2D6FD4B44BB62151EE9D6;
+			remoteInfo = "Pods-BetterPurdueCourseFinder";
+		};
+		63BAFBD74BC00FF195C778C48A60E114 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C40FAC14BC96B232616C79BD563093F;
+			remoteInfo = DropDownMenuKit;
+		};
+		86B1987777E850E6D64B47E15D769A79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C40FAC14BC96B232616C79BD563093F;
+			remoteInfo = DropDownMenuKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		018CEA8394F62AA0FF4FA5367E3F000D /* Pods_BetterPurdueCourseFinderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BetterPurdueCourseFinderTests.framework; path = "Pods-BetterPurdueCourseFinderTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02F49211B509329667B725717802C263 /* DropDownTitleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DropDownTitleView.swift; sourceTree = "<group>"; };
+		0302CEC8A47A34EC63F6092854CC57B0 /* Pods-BetterPurdueCourseFinder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BetterPurdueCourseFinder.modulemap"; sourceTree = "<group>"; };
+		05788A1C2981CCA0077F849240F5CFB2 /* Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests-dummy.m"; sourceTree = "<group>"; };
+		0856D60566596A99F2DE655127DB9F5E /* Pods-BetterPurdueCourseFinderTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BetterPurdueCourseFinderTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		092E32C63B84B0D8D8B9A78169C975A6 /* DropDownMenuKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDownMenuKit-umbrella.h"; sourceTree = "<group>"; };
+		0960AD582A7E098E882E89656DE0335E /* DropDownMenu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DropDownMenu.swift; sourceTree = "<group>"; };
+		1A2CDE4B22A7832DA3F23890F80A0762 /* DropDownMenuKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropDownMenuKit.debug.xcconfig; sourceTree = "<group>"; };
+		1A61270233069F376B3C961B87130183 /* Pods-BetterPurdueCourseFinderTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BetterPurdueCourseFinderTests-umbrella.h"; sourceTree = "<group>"; };
+		1AC9D5FF8A0C549D8594EE10D191D87B /* Pods_BetterPurdueCourseFinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BetterPurdueCourseFinder.framework; path = "Pods-BetterPurdueCourseFinder.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B95CDC7E1065B6FC3CE36EACE031015 /* Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests.modulemap"; sourceTree = "<group>"; };
+		2550878D8B29629F012F6B636D93A87B /* DropDownMenuCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DropDownMenuCell.swift; sourceTree = "<group>"; };
+		2959CBE9B73D6F83CF12C25B2880EA9F /* Pods-BetterPurdueCourseFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BetterPurdueCourseFinder.debug.xcconfig"; sourceTree = "<group>"; };
+		2F9523DE4EDF28CA5C5A86D7FBF69CAD /* Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests-Info.plist"; sourceTree = "<group>"; };
+		34CE847103E1431A38D6C043B1B57A5D /* Pods-BetterPurdueCourseFinderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BetterPurdueCourseFinderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		39AC55CC6CBB3A3345AAA43DD84D7786 /* Pods-BetterPurdueCourseFinderTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BetterPurdueCourseFinderTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		58F30098CB16F0B6FBB728916BA0548B /* DropDownMenuKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DropDownMenuKit-dummy.m"; sourceTree = "<group>"; };
+		5CCC2AF8A400880B0E73BFFFFA76AD90 /* Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7721B05ED3F15BC04868D8EFB49433A9 /* Pods-BetterPurdueCourseFinderTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BetterPurdueCourseFinderTests-Info.plist"; sourceTree = "<group>"; };
+		7B1B0A8685D59F8AFDF433E1487DE178 /* Pods-BetterPurdueCourseFinder-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BetterPurdueCourseFinder-Info.plist"; sourceTree = "<group>"; };
+		7CA8B898A4783B2AB507B2967E43AB53 /* DropDownMenuKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DropDownMenuKit.modulemap; sourceTree = "<group>"; };
+		7D4D47CB88E8B41D8B1112BD4987273F /* DropDownMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DropDownMenu.h; sourceTree = "<group>"; };
+		864E0F3D5AE93740773AFFB7C6DA83F7 /* Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8840392299360CB9A33CEDD069FFF520 /* Pods-BetterPurdueCourseFinder-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BetterPurdueCourseFinder-acknowledgements.plist"; sourceTree = "<group>"; };
+		8B3BBD45F74877FDF2ED4C54AC09C54E /* Pods-BetterPurdueCourseFinderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BetterPurdueCourseFinderTests.release.xcconfig"; sourceTree = "<group>"; };
+		8BE2A715ABCDDF4362DC17025F202FC4 /* Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests-umbrella.h"; sourceTree = "<group>"; };
+		939D93C879F7C04D21F4A9814179840D /* Pods-BetterPurdueCourseFinderTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BetterPurdueCourseFinderTests.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4A9333085A2B1231269B6D89826ACD1 /* Pods-BetterPurdueCourseFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BetterPurdueCourseFinder.release.xcconfig"; sourceTree = "<group>"; };
+		AA48DE9B91D6716AA79DA7028F069664 /* DropDownMenuKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDownMenuKit-prefix.pch"; sourceTree = "<group>"; };
+		AF1D1512234139B59E1F17F246CA9ADD /* Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests-frameworks.sh"; sourceTree = "<group>"; };
+		B0637A9BCFDA26451F591484F77496D2 /* Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B2278EE69791A7593908F4A767B5615D /* DropDownMenuKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DropDownMenuKit.framework; path = DropDownMenuKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C345C693CCF8282846804427A283F541 /* Pods-BetterPurdueCourseFinder-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BetterPurdueCourseFinder-frameworks.sh"; sourceTree = "<group>"; };
+		C85F198891F9CC72BB548C6845D66E19 /* Pods_BetterPurdueCourseFinder_BetterPurdueCourseFinderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BetterPurdueCourseFinder_BetterPurdueCourseFinderUITests.framework; path = "Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA0FE07C30B93A289D9308F17A23D418 /* DropDownMenuKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropDownMenuKit.release.xcconfig; sourceTree = "<group>"; };
+		D351CAC8966E99914B5AA29B7B1A4A43 /* Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D78D8FB11C3FDDAAB939AB8710F79A29 /* Pods-BetterPurdueCourseFinder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BetterPurdueCourseFinder-umbrella.h"; sourceTree = "<group>"; };
+		E665E37363A1E9102877944072EA1027 /* Pods-BetterPurdueCourseFinder-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BetterPurdueCourseFinder-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E9C4A7C947A5D145D9EC94509EA6334B /* Pods-BetterPurdueCourseFinder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BetterPurdueCourseFinder-dummy.m"; sourceTree = "<group>"; };
+		F11C5804F5789BD7D3BD4FC9FDFFC01A /* DropDownMenuKit.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = DropDownMenuKit.xcassets; sourceTree = "<group>"; };
+		F1BDBCE4A2A413EAB008121244BE373D /* DropDownMenuKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DropDownMenuKit-Info.plist"; sourceTree = "<group>"; };
+		FC42D543AB0F4158B0AC2F129CCDE265 /* Pods-BetterPurdueCourseFinderTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BetterPurdueCourseFinderTests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2958F90D87DCCD356B15E1410A1BBC93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E457A36AE233952712BE6C2946D31BAC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CF00CB41CE01CD05DA27E2DB0104C74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				819FB4DF93FA2C54C306A69E1FDB9823 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A74487027733179E377C7F46D39C68BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				793EBB06BDA1F66965302AD30CD61083 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB185CBD1A9A04F447D29246DE367624 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FF20A266B1982F46CFE138206314EEF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		067F61819249DA4B03F4218E7F61B6C1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				185D327EB2E51EC8DB9A25FF333E4A6C /* DropDownMenuKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		185D327EB2E51EC8DB9A25FF333E4A6C /* DropDownMenuKit */ = {
+			isa = PBXGroup;
+			children = (
+				7D4D47CB88E8B41D8B1112BD4987273F /* DropDownMenu.h */,
+				0960AD582A7E098E882E89656DE0335E /* DropDownMenu.swift */,
+				2550878D8B29629F012F6B636D93A87B /* DropDownMenuCell.swift */,
+				02F49211B509329667B725717802C263 /* DropDownTitleView.swift */,
+				E0F17620174ABEF820F54E63E8BDD90B /* Resources */,
+				DF82B8B15FEC2E59EBE486B65A257685 /* Support Files */,
+			);
+			name = DropDownMenuKit;
+			path = DropDownMenuKit;
+			sourceTree = "<group>";
+		};
+		21A3B6A26F757EEE17C4FD5D0A4866A5 /* Pods-BetterPurdueCourseFinder */ = {
+			isa = PBXGroup;
+			children = (
+				0302CEC8A47A34EC63F6092854CC57B0 /* Pods-BetterPurdueCourseFinder.modulemap */,
+				E665E37363A1E9102877944072EA1027 /* Pods-BetterPurdueCourseFinder-acknowledgements.markdown */,
+				8840392299360CB9A33CEDD069FFF520 /* Pods-BetterPurdueCourseFinder-acknowledgements.plist */,
+				E9C4A7C947A5D145D9EC94509EA6334B /* Pods-BetterPurdueCourseFinder-dummy.m */,
+				C345C693CCF8282846804427A283F541 /* Pods-BetterPurdueCourseFinder-frameworks.sh */,
+				7B1B0A8685D59F8AFDF433E1487DE178 /* Pods-BetterPurdueCourseFinder-Info.plist */,
+				D78D8FB11C3FDDAAB939AB8710F79A29 /* Pods-BetterPurdueCourseFinder-umbrella.h */,
+				2959CBE9B73D6F83CF12C25B2880EA9F /* Pods-BetterPurdueCourseFinder.debug.xcconfig */,
+				A4A9333085A2B1231269B6D89826ACD1 /* Pods-BetterPurdueCourseFinder.release.xcconfig */,
+			);
+			name = "Pods-BetterPurdueCourseFinder";
+			path = "Target Support Files/Pods-BetterPurdueCourseFinder";
+			sourceTree = "<group>";
+		};
+		395CECF0CABA09F0FD9460E6CA8ED542 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				21A3B6A26F757EEE17C4FD5D0A4866A5 /* Pods-BetterPurdueCourseFinder */,
+				7C3C8263CBEF33EF4B72A49A8276FA80 /* Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests */,
+				EDA02224B42821C7B0E8010FFB5BD191 /* Pods-BetterPurdueCourseFinderTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7C3C8263CBEF33EF4B72A49A8276FA80 /* Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1B95CDC7E1065B6FC3CE36EACE031015 /* Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests.modulemap */,
+				D351CAC8966E99914B5AA29B7B1A4A43 /* Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests-acknowledgements.markdown */,
+				5CCC2AF8A400880B0E73BFFFFA76AD90 /* Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests-acknowledgements.plist */,
+				05788A1C2981CCA0077F849240F5CFB2 /* Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests-dummy.m */,
+				AF1D1512234139B59E1F17F246CA9ADD /* Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests-frameworks.sh */,
+				2F9523DE4EDF28CA5C5A86D7FBF69CAD /* Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests-Info.plist */,
+				8BE2A715ABCDDF4362DC17025F202FC4 /* Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests-umbrella.h */,
+				B0637A9BCFDA26451F591484F77496D2 /* Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests.debug.xcconfig */,
+				864E0F3D5AE93740773AFFB7C6DA83F7 /* Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests.release.xcconfig */,
+			);
+			name = "Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests";
+			path = "Target Support Files/Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests";
+			sourceTree = "<group>";
+		};
+		8B47FFF8FC8F062BA9A521B4B8EC5460 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2278EE69791A7593908F4A767B5615D /* DropDownMenuKit.framework */,
+				1AC9D5FF8A0C549D8594EE10D191D87B /* Pods_BetterPurdueCourseFinder.framework */,
+				C85F198891F9CC72BB548C6845D66E19 /* Pods_BetterPurdueCourseFinder_BetterPurdueCourseFinderUITests.framework */,
+				018CEA8394F62AA0FF4FA5367E3F000D /* Pods_BetterPurdueCourseFinderTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				067F61819249DA4B03F4218E7F61B6C1 /* Pods */,
+				8B47FFF8FC8F062BA9A521B4B8EC5460 /* Products */,
+				395CECF0CABA09F0FD9460E6CA8ED542 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF82B8B15FEC2E59EBE486B65A257685 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CA8B898A4783B2AB507B2967E43AB53 /* DropDownMenuKit.modulemap */,
+				58F30098CB16F0B6FBB728916BA0548B /* DropDownMenuKit-dummy.m */,
+				F1BDBCE4A2A413EAB008121244BE373D /* DropDownMenuKit-Info.plist */,
+				AA48DE9B91D6716AA79DA7028F069664 /* DropDownMenuKit-prefix.pch */,
+				092E32C63B84B0D8D8B9A78169C975A6 /* DropDownMenuKit-umbrella.h */,
+				1A2CDE4B22A7832DA3F23890F80A0762 /* DropDownMenuKit.debug.xcconfig */,
+				CA0FE07C30B93A289D9308F17A23D418 /* DropDownMenuKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DropDownMenuKit";
+			sourceTree = "<group>";
+		};
+		E0F17620174ABEF820F54E63E8BDD90B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F11C5804F5789BD7D3BD4FC9FDFFC01A /* DropDownMenuKit.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		EDA02224B42821C7B0E8010FFB5BD191 /* Pods-BetterPurdueCourseFinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				939D93C879F7C04D21F4A9814179840D /* Pods-BetterPurdueCourseFinderTests.modulemap */,
+				0856D60566596A99F2DE655127DB9F5E /* Pods-BetterPurdueCourseFinderTests-acknowledgements.markdown */,
+				39AC55CC6CBB3A3345AAA43DD84D7786 /* Pods-BetterPurdueCourseFinderTests-acknowledgements.plist */,
+				FC42D543AB0F4158B0AC2F129CCDE265 /* Pods-BetterPurdueCourseFinderTests-dummy.m */,
+				7721B05ED3F15BC04868D8EFB49433A9 /* Pods-BetterPurdueCourseFinderTests-Info.plist */,
+				1A61270233069F376B3C961B87130183 /* Pods-BetterPurdueCourseFinderTests-umbrella.h */,
+				34CE847103E1431A38D6C043B1B57A5D /* Pods-BetterPurdueCourseFinderTests.debug.xcconfig */,
+				8B3BBD45F74877FDF2ED4C54AC09C54E /* Pods-BetterPurdueCourseFinderTests.release.xcconfig */,
+			);
+			name = "Pods-BetterPurdueCourseFinderTests";
+			path = "Target Support Files/Pods-BetterPurdueCourseFinderTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		37C80E71236D4233D7317C077E3613AC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3251A3DFE43D750782D97B6557387974 /* Pods-BetterPurdueCourseFinderTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A863C23D2A3FB724029636DAACBA9F57 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0855050648CECA8014178D6362FB5B6C /* Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEEE123E6A5098E04378387C2CF46F4B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D0B6FAF2195938B643BAD9C282707BD /* Pods-BetterPurdueCourseFinder-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5B18C156CDA938E478D5D3D1026B9C4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DAED01DCE040C03DB05B7D34AE96836 /* DropDownMenu.h in Headers */,
+				0966BE7528B380A0AB187BB38C30ACD1 /* DropDownMenuKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		18C5060CC46DE86E8DE09FADDD4D9AC2 /* Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95D3498CCBB8FC6E4431D9492F2C7CD9 /* Build configuration list for PBXNativeTarget "Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests" */;
+			buildPhases = (
+				A863C23D2A3FB724029636DAACBA9F57 /* Headers */,
+				9647EB65DC279398175B4C07DCF54DB5 /* Sources */,
+				CB185CBD1A9A04F447D29246DE367624 /* Frameworks */,
+				B7712B5774AAF66D0E3FF8441284FD6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E16D3E0F491139EC534E2B8564C76546 /* PBXTargetDependency */,
+			);
+			name = "Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests";
+			productName = "Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests";
+			productReference = C85F198891F9CC72BB548C6845D66E19 /* Pods_BetterPurdueCourseFinder_BetterPurdueCourseFinderUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5AF96A70B6E2D6FD4B44BB62151EE9D6 /* Pods-BetterPurdueCourseFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5766000CDE7958D8269A012880DF5684 /* Build configuration list for PBXNativeTarget "Pods-BetterPurdueCourseFinder" */;
+			buildPhases = (
+				AEEE123E6A5098E04378387C2CF46F4B /* Headers */,
+				5D1AEAC447CC2EB01203EECE48D4733A /* Sources */,
+				A74487027733179E377C7F46D39C68BD /* Frameworks */,
+				571361A6333F800EDE6D52E302F98361 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE38F69B74A7925BE42F6547409494E2 /* PBXTargetDependency */,
+			);
+			name = "Pods-BetterPurdueCourseFinder";
+			productName = "Pods-BetterPurdueCourseFinder";
+			productReference = 1AC9D5FF8A0C549D8594EE10D191D87B /* Pods_BetterPurdueCourseFinder.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5C40FAC14BC96B232616C79BD563093F /* DropDownMenuKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 574EBF5D66AD78100C7459B9CCA18087 /* Build configuration list for PBXNativeTarget "DropDownMenuKit" */;
+			buildPhases = (
+				E5B18C156CDA938E478D5D3D1026B9C4 /* Headers */,
+				E55FF47C4395091143D60A2C1E1D1828 /* Sources */,
+				7CF00CB41CE01CD05DA27E2DB0104C74 /* Frameworks */,
+				5CC4F4F933AC0A5EF87793D1BA12B2DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DropDownMenuKit;
+			productName = DropDownMenuKit;
+			productReference = B2278EE69791A7593908F4A767B5615D /* DropDownMenuKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		721B5355B7FBABD80006688261F69050 /* Pods-BetterPurdueCourseFinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAA4CCA32550E6449C67DD5D60642963 /* Build configuration list for PBXNativeTarget "Pods-BetterPurdueCourseFinderTests" */;
+			buildPhases = (
+				37C80E71236D4233D7317C077E3613AC /* Headers */,
+				B36D6FDA1B8BEFBFA5E164252702A41D /* Sources */,
+				2958F90D87DCCD356B15E1410A1BBC93 /* Frameworks */,
+				CB0DD8E377A0C18BB2ADB5C408858C74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A07D6939A42A2E6AB613FC7A984C7C9 /* PBXTargetDependency */,
+			);
+			name = "Pods-BetterPurdueCourseFinderTests";
+			productName = "Pods-BetterPurdueCourseFinderTests";
+			productReference = 018CEA8394F62AA0FF4FA5367E3F000D /* Pods_BetterPurdueCourseFinderTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8B47FFF8FC8F062BA9A521B4B8EC5460 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C40FAC14BC96B232616C79BD563093F /* DropDownMenuKit */,
+				5AF96A70B6E2D6FD4B44BB62151EE9D6 /* Pods-BetterPurdueCourseFinder */,
+				18C5060CC46DE86E8DE09FADDD4D9AC2 /* Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests */,
+				721B5355B7FBABD80006688261F69050 /* Pods-BetterPurdueCourseFinderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		571361A6333F800EDE6D52E302F98361 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC4F4F933AC0A5EF87793D1BA12B2DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4861B4F4F9287BD98E8E2B951A1DFB4 /* DropDownMenuKit.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7712B5774AAF66D0E3FF8441284FD6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB0DD8E377A0C18BB2ADB5C408858C74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D1AEAC447CC2EB01203EECE48D4733A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB192F70B94E862B513892C2672B870B /* Pods-BetterPurdueCourseFinder-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9647EB65DC279398175B4C07DCF54DB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				329AA4FD7192C90C4329C464FB10AB09 /* Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B36D6FDA1B8BEFBFA5E164252702A41D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D79F30738747F148428444BC2DFE56EF /* Pods-BetterPurdueCourseFinderTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E55FF47C4395091143D60A2C1E1D1828 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DEC98C9D7F502278E675D462BE9F26B /* DropDownMenu.swift in Sources */,
+				77DD65C819724C6F2BB258EE04A1FBCB /* DropDownMenuCell.swift in Sources */,
+				137DA24CBBE67A841C08FA5D23A9DF0B /* DropDownMenuKit-dummy.m in Sources */,
+				A84436C0B04C03299EE2487396828DEF /* DropDownTitleView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A07D6939A42A2E6AB613FC7A984C7C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-BetterPurdueCourseFinder";
+			target = 5AF96A70B6E2D6FD4B44BB62151EE9D6 /* Pods-BetterPurdueCourseFinder */;
+			targetProxy = 4536B92D8F1CB97AEE1FD9B38D8CB10A /* PBXContainerItemProxy */;
+		};
+		DE38F69B74A7925BE42F6547409494E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DropDownMenuKit;
+			target = 5C40FAC14BC96B232616C79BD563093F /* DropDownMenuKit */;
+			targetProxy = 63BAFBD74BC00FF195C778C48A60E114 /* PBXContainerItemProxy */;
+		};
+		E16D3E0F491139EC534E2B8564C76546 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DropDownMenuKit;
+			target = 5C40FAC14BC96B232616C79BD563093F /* DropDownMenuKit */;
+			targetProxy = 86B1987777E850E6D64B47E15D769A79 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3A814983F56E58E5078CC7A520CB657D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4A9333085A2B1231269B6D89826ACD1 /* Pods-BetterPurdueCourseFinder.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BetterPurdueCourseFinder/Pods-BetterPurdueCourseFinder-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BetterPurdueCourseFinder/Pods-BetterPurdueCourseFinder.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3B5872AFF240D81FDA071FE3FD066195 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA0FE07C30B93A289D9308F17A23D418 /* DropDownMenuKit.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DropDownMenuKit/DropDownMenuKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DropDownMenuKit/DropDownMenuKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DropDownMenuKit/DropDownMenuKit.modulemap";
+				PRODUCT_MODULE_NAME = DropDownMenuKit;
+				PRODUCT_NAME = DropDownMenuKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		542CBA781A6FFA6F7FED050473947C70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A2CDE4B22A7832DA3F23890F80A0762 /* DropDownMenuKit.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DropDownMenuKit/DropDownMenuKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DropDownMenuKit/DropDownMenuKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DropDownMenuKit/DropDownMenuKit.modulemap";
+				PRODUCT_MODULE_NAME = DropDownMenuKit;
+				PRODUCT_NAME = DropDownMenuKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		70B967E4A2A9BF04EAE805AD404C91CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34CE847103E1431A38D6C043B1B57A5D /* Pods-BetterPurdueCourseFinderTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BetterPurdueCourseFinderTests/Pods-BetterPurdueCourseFinderTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BetterPurdueCourseFinderTests/Pods-BetterPurdueCourseFinderTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		780C2FDB1B2AFC136F91018A04FF72B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B3BBD45F74877FDF2ED4C54AC09C54E /* Pods-BetterPurdueCourseFinderTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BetterPurdueCourseFinderTests/Pods-BetterPurdueCourseFinderTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BetterPurdueCourseFinderTests/Pods-BetterPurdueCourseFinderTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8BB2F92831453988A872B077FBDD729D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0637A9BCFDA26451F591484F77496D2 /* Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests/Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests/Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A92D3262A4AC510C18BE3BE7AE1276CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 864E0F3D5AE93740773AFFB7C6DA83F7 /* Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests/Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests/Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E8B32B33ED0662E4594D3CC881056A5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2959CBE9B73D6F83CF12C25B2880EA9F /* Pods-BetterPurdueCourseFinder.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BetterPurdueCourseFinder/Pods-BetterPurdueCourseFinder-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BetterPurdueCourseFinder/Pods-BetterPurdueCourseFinder.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		574EBF5D66AD78100C7459B9CCA18087 /* Build configuration list for PBXNativeTarget "DropDownMenuKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				542CBA781A6FFA6F7FED050473947C70 /* Debug */,
+				3B5872AFF240D81FDA071FE3FD066195 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5766000CDE7958D8269A012880DF5684 /* Build configuration list for PBXNativeTarget "Pods-BetterPurdueCourseFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8B32B33ED0662E4594D3CC881056A5E /* Debug */,
+				3A814983F56E58E5078CC7A520CB657D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95D3498CCBB8FC6E4431D9492F2C7CD9 /* Build configuration list for PBXNativeTarget "Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BB2F92831453988A872B077FBDD729D /* Debug */,
+				A92D3262A4AC510C18BE3BE7AE1276CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAA4CCA32550E6449C67DD5D60642963 /* Build configuration list for PBXNativeTarget "Pods-BetterPurdueCourseFinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70B967E4A2A9BF04EAE805AD404C91CB /* Debug */,
+				780C2FDB1B2AFC136F91018A04FF72B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

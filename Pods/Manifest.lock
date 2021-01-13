@@ -1,0 +1,16 @@
+PODS:
+  - DropDownMenuKit (0.9)
+
+DEPENDENCIES:
+  - DropDownMenuKit
+
+SPEC REPOS:
+  trunk:
+    - DropDownMenuKit
+
+SPEC CHECKSUMS:
+  DropDownMenuKit: b277b3863719c8c8e53c68898bb2c0eb69d502b6
+
+PODFILE CHECKSUM: 32e50cd4819b71294c563ebfb4d08a7462467d8e
+
+COCOAPODS: 1.10.0

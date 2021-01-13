@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D2A73DC2354814C2DCAC882 /* Pods_BetterPurdueCourseFinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E2CE2C2314D636CB3E258E5 /* Pods_BetterPurdueCourseFinder.framework */; };
+		9211389B9B34869AF568D766 /* Pods_BetterPurdueCourseFinderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E74A5570076801C54ACFC4C /* Pods_BetterPurdueCourseFinderTests.framework */; };
+		C4313E9655D2DB986C9737F5 /* Pods_BetterPurdueCourseFinder_BetterPurdueCourseFinderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1252D1307030B388844C85B6 /* Pods_BetterPurdueCourseFinder_BetterPurdueCourseFinderUITests.framework */; };
 		E4F7DE2225AF68F9001F0572 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F7DE2125AF68F9001F0572 /* AppDelegate.swift */; };
 		E4F7DE2425AF68F9001F0572 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F7DE2325AF68F9001F0572 /* SceneDelegate.swift */; };
 		E4F7DE2625AF68F9001F0572 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F7DE2525AF68F9001F0572 /* ViewController.swift */; };
@@ -35,6 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1252D1307030B388844C85B6 /* Pods_BetterPurdueCourseFinder_BetterPurdueCourseFinderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BetterPurdueCourseFinder_BetterPurdueCourseFinderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		211B32B61FECE89572ADD18A /* Pods-BetterPurdueCourseFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BetterPurdueCourseFinder.release.xcconfig"; path = "Target Support Files/Pods-BetterPurdueCourseFinder/Pods-BetterPurdueCourseFinder.release.xcconfig"; sourceTree = "<group>"; };
+		2DBB2283C1647ABC5905A689 /* Pods-BetterPurdueCourseFinderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BetterPurdueCourseFinderTests.release.xcconfig"; path = "Target Support Files/Pods-BetterPurdueCourseFinderTests/Pods-BetterPurdueCourseFinderTests.release.xcconfig"; sourceTree = "<group>"; };
+		2E2CE2C2314D636CB3E258E5 /* Pods_BetterPurdueCourseFinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BetterPurdueCourseFinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F7E0CDD8B37FCC8BF84EE99 /* Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests.release.xcconfig"; path = "Target Support Files/Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests/Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9E74A5570076801C54ACFC4C /* Pods_BetterPurdueCourseFinderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BetterPurdueCourseFinderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4F7DE1E25AF68F9001F0572 /* BetterPurdueCourseFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterPurdueCourseFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4F7DE2125AF68F9001F0572 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4F7DE2325AF68F9001F0572 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +58,9 @@
 		E4F7DE3F25AF68FC001F0572 /* BetterPurdueCourseFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterPurdueCourseFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4F7DE4325AF68FC001F0572 /* BetterPurdueCourseFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterPurdueCourseFinderUITests.swift; sourceTree = "<group>"; };
 		E4F7DE4525AF68FC001F0572 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8C5E36ADD3C691EF65ADE64 /* Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests.debug.xcconfig"; path = "Target Support Files/Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests/Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E8E322F59A2EA594610719AE /* Pods-BetterPurdueCourseFinderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BetterPurdueCourseFinderTests.debug.xcconfig"; path = "Target Support Files/Pods-BetterPurdueCourseFinderTests/Pods-BetterPurdueCourseFinderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FCC337220A5E89435E57AA13 /* Pods-BetterPurdueCourseFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BetterPurdueCourseFinder.debug.xcconfig"; path = "Target Support Files/Pods-BetterPurdueCourseFinder/Pods-BetterPurdueCourseFinder.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D2A73DC2354814C2DCAC882 /* Pods_BetterPurdueCourseFinder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9211389B9B34869AF568D766 /* Pods_BetterPurdueCourseFinderTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4313E9655D2DB986C9737F5 /* Pods_BetterPurdueCourseFinder_BetterPurdueCourseFinderUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0DAFDF7DD8B407D4BFD764AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E2CE2C2314D636CB3E258E5 /* Pods_BetterPurdueCourseFinder.framework */,
+				1252D1307030B388844C85B6 /* Pods_BetterPurdueCourseFinder_BetterPurdueCourseFinderUITests.framework */,
+				9E74A5570076801C54ACFC4C /* Pods_BetterPurdueCourseFinderTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		74D168D76A139E8CAC9FB9D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FCC337220A5E89435E57AA13 /* Pods-BetterPurdueCourseFinder.debug.xcconfig */,
+				211B32B61FECE89572ADD18A /* Pods-BetterPurdueCourseFinder.release.xcconfig */,
+				E8C5E36ADD3C691EF65ADE64 /* Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests.debug.xcconfig */,
+				4F7E0CDD8B37FCC8BF84EE99 /* Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests.release.xcconfig */,
+				E8E322F59A2EA594610719AE /* Pods-BetterPurdueCourseFinderTests.debug.xcconfig */,
+				2DBB2283C1647ABC5905A689 /* Pods-BetterPurdueCourseFinderTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E4F7DE1525AF68F9001F0572 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +121,8 @@
 				E4F7DE3725AF68FC001F0572 /* BetterPurdueCourseFinderTests */,
 				E4F7DE4225AF68FC001F0572 /* BetterPurdueCourseFinderUITests */,
 				E4F7DE1F25AF68F9001F0572 /* Products */,
+				74D168D76A139E8CAC9FB9D8 /* Pods */,
+				0DAFDF7DD8B407D4BFD764AF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4F7DE4825AF68FC001F0572 /* Build configuration list for PBXNativeTarget "BetterPurdueCourseFinder" */;
 			buildPhases = (
+				311D7A0439FEFFAEB8567B94 /* [CP] Check Pods Manifest.lock */,
 				E4F7DE1A25AF68F9001F0572 /* Sources */,
 				E4F7DE1B25AF68F9001F0572 /* Frameworks */,
 				E4F7DE1C25AF68F9001F0572 /* Resources */,
+				E0E98E535BE0F27E747C0569 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4F7DE4B25AF68FC001F0572 /* Build configuration list for PBXNativeTarget "BetterPurdueCourseFinderTests" */;
 			buildPhases = (
+				84F945CC9AD919519A710B0E /* [CP] Check Pods Manifest.lock */,
 				E4F7DE3025AF68FC001F0572 /* Sources */,
 				E4F7DE3125AF68FC001F0572 /* Frameworks */,
 				E4F7DE3225AF68FC001F0572 /* Resources */,
@@ -170,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4F7DE4E25AF68FC001F0572 /* Build configuration list for PBXNativeTarget "BetterPurdueCourseFinderUITests" */;
 			buildPhases = (
+				030A96497639708EC1ED1CC0 /* [CP] Check Pods Manifest.lock */,
 				E4F7DE3B25AF68FC001F0572 /* Sources */,
 				E4F7DE3C25AF68FC001F0572 /* Frameworks */,
 				E4F7DE3D25AF68FC001F0572 /* Resources */,
+				8C782530655E17C425521BBC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +297,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		030A96497639708EC1ED1CC0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		311D7A0439FEFFAEB8567B94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BetterPurdueCourseFinder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84F945CC9AD919519A710B0E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BetterPurdueCourseFinderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C782530655E17C425521BBC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests/Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests/Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests/Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0E98E535BE0F27E747C0569 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BetterPurdueCourseFinder/Pods-BetterPurdueCourseFinder-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BetterPurdueCourseFinder/Pods-BetterPurdueCourseFinder-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BetterPurdueCourseFinder/Pods-BetterPurdueCourseFinder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E4F7DE1A25AF68F9001F0572 /* Sources */ = {
@@ -433,6 +581,7 @@
 		};
 		E4F7DE4925AF68FC001F0572 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCC337220A5E89435E57AA13 /* Pods-BetterPurdueCourseFinder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +601,7 @@
 		};
 		E4F7DE4A25AF68FC001F0572 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 211B32B61FECE89572ADD18A /* Pods-BetterPurdueCourseFinder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,8 +621,8 @@
 		};
 		E4F7DE4C25AF68FC001F0572 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8E322F59A2EA594610719AE /* Pods-BetterPurdueCourseFinderTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y6VJVA9LC5;
@@ -493,8 +643,8 @@
 		};
 		E4F7DE4D25AF68FC001F0572 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DBB2283C1647ABC5905A689 /* Pods-BetterPurdueCourseFinderTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y6VJVA9LC5;
@@ -515,8 +665,8 @@
 		};
 		E4F7DE4F25AF68FC001F0572 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8C5E36ADD3C691EF65ADE64 /* Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y6VJVA9LC5;
 				INFOPLIST_FILE = BetterPurdueCourseFinderUITests/Info.plist;
@@ -535,8 +685,8 @@
 		};
 		E4F7DE5025AF68FC001F0572 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F7E0CDD8B37FCC8BF84EE99 /* Pods-BetterPurdueCourseFinder-BetterPurdueCourseFinderUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y6VJVA9LC5;
 				INFOPLIST_FILE = BetterPurdueCourseFinderUITests/Info.plist;

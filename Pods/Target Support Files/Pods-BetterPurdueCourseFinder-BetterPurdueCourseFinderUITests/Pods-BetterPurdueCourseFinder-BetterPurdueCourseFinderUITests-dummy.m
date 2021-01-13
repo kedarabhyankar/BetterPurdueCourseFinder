@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_BetterPurdueCourseFinder_BetterPurdueCourseFinderUITests : NSObject
+@end
+@implementation PodsDummy_Pods_BetterPurdueCourseFinder_BetterPurdueCourseFinderUITests
+@end

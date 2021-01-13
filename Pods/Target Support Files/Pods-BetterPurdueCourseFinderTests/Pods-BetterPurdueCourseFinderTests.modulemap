@@ -1,0 +1,6 @@
+framework module Pods_BetterPurdueCourseFinderTests {
+  umbrella header "Pods-BetterPurdueCourseFinderTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
